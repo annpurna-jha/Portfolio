@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"defer></script>
+    <!-- emailjs -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("ACZGzRTjqfiq8qa1H");
+        })();
+    </script>
+</head>
+<body>
+    <!-- header site -->
+    <header>
+        <div class="logo"><span>A</span>nnpurna.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+
+            <li><a href="#portfolio" style="--i:3;">Portfolio</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#contact" style="--i:5;">Contact</a></li> 
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+    <!-- home section-------------------------- -->
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi! I'm Annpurna</h1>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                    <span class="word">Java&nbsp;Developer</span>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <!-- <span class="word">React&nbsp;Js&nbsp;Developer</span> -->
+                    <!-- <span class="word">SpringBoot&nbsp;Developer</span> -->
+                    <span class="word">Web&nbsp;Designer</span>
+                </h3>
+            </div>
+
+            <p> Welcome to my digital space! <br> I am a passionate and dedicated aspiring developer with a knack for problem-solving. This showcases my journey from learning to implementing various coding projects. Explore my evolving skills.</p>
+
+            <div class="btn-box">
+                <a href="/Projects/Portfolio1/img/Resume (1).pdf" download="/Projects/Portfolio1/img/Resume (1).pdf" class="btn">Download CV</a>
+                <!-- <a href="" class="btn">Hire Me</a> -->
+            </div>
+
+        </div>
+
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="/Projects/Portfolio1/img/aboutimage-removebg-preview.png" alt="">
+            </div>
+
+            <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                        <animate attributeName = "d"
+                        dur = "20000ms"
+                        repeatCount = "indefinite"
+                        values = "
+                        M405.5,291.5Q394,333,374,381.5Q354,430,302,416.5Q250,403,200,413.5Q150,424,131.5,376.5Q113,329,78.5,289.5Q44,250,80.5,211.5Q117,173,142,139.5Q167,106,208.5,66.5Q250,27,293,63.5Q336,100,376.5,126.5Q417,153,417,201.5Q417,250,405.5,291.5Z;
+
+                        M428,309Q454,368,410.5,410Q367,452,308.5,453Q250,454,210.5,420Q171,386,111.5,375Q52,364,47,307Q42,250,74.5,209Q107,168,128.5,122Q150,76,200,47.5Q250,19,303.5,41.5Q357,64,374.5,116Q392,168,397,209Q402,250,428,309Z;
+
+                        M432.5,302.5Q433,355,381,371Q329,387,289.5,401.5Q250,416,194,430Q138,444,91.5,406Q45,368,44,309Q43,250,79,211Q115,172,128,116.5Q141,61,195.5,56.5Q250,52,311,45.5Q372,39,409,88Q446,137,439,193.5Q432,250,432.5,302.5Z;
+
+                        M452.5,307Q447,364,405,405Q363,446,306.5,454.5Q250,463,190,460.5Q130,458,93,410Q56,362,56,306Q56,250,78,207Q100,164,136.5,140.5Q173,117,211.5,66.5Q250,16,301,45Q352,74,371.5,121.5Q391,169,424.5,209.5Q458,250,452.5,307Z;
+
+                        M445.5,299Q420,348,377,372Q334,396,292,444Q250,492,192,471.5Q134,451,102,402.5Q70,354,70,302Q70,250,61.5,193Q53,136,108,117.5Q163,99,206.5,53.5Q250,8,311,23.5Q372,39,417.5,83Q463,127,467,188.5Q471,250,445.5,299Z;
+
+                        M429,306.5Q446,363,400,397Q354,431,302,451.5Q250,472,204.5,439.5Q159,407,102,387.5Q45,368,59.5,309Q74,250,76.5,200.5Q79,151,103,94.5Q127,38,188.5,24.5Q250,11,291,60Q332,109,368.5,134.5Q405,160,408.5,205Q412,250,429,306.5Z;
+
+                        M434,295Q405,340,389,401.5Q373,463,311.5,452.5Q250,442,211.5,413Q173,384,138.5,359Q104,334,78,292Q52,250,64.5,200Q77,150,103.5,96Q130,42,190,62Q250,82,299,81.5Q348,81,377,120.5Q406,160,434.5,205Q463,250,434,295Z;
+
+                        M473,307.5Q449,365,409,410.5Q369,456,309.5,455.5Q250,455,210.5,420.5Q171,386,124.5,368Q78,350,78.5,300Q79,250,92,208.5Q105,167,136.5,137.5Q168,108,209,91.5Q250,75,290,93.5Q330,112,383,127.5Q436,143,466.5,196.5Q497,250,473,307.5Z;
+
+                        M442.5,296Q409,342,380.5,384.5Q352,427,301,440Q250,453,209.5,421.5Q169,390,128.5,367Q88,344,67,297Q46,250,44.5,190.5Q43,131,100,110Q157,89,203.5,68.5Q250,48,306.5,51.5Q363,55,394.5,102Q426,149,451,199.5Q476,250,442.5,296Z;
+
+                        M405.5,291.5Q394,333,374,381.5Q354,430,302,416.5Q250,403,200,413.5Q150,424,131.5,376.5Q113,329,78.5,289.5Q44,250,80.5,211.5Q117,173,142,139.5Q167,106,208.5,66.5Q250,27,293,63.5Q336,100,376.5,126.5Q417,153,417,201.5Q417,250,405.5,291.5Z;
+                        "
+                        ></animate>
+                    </path>
+                  </svg>
+            </div>
+
+            <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                        <animate attributeName = "d"
+                        dur = "20000ms"
+                        repeatCount = "indefinite"
+                        values = "
+                        M405.5,291.5Q394,333,374,381.5Q354,430,302,416.5Q250,403,200,413.5Q150,424,131.5,376.5Q113,329,78.5,289.5Q44,250,80.5,211.5Q117,173,142,139.5Q167,106,208.5,66.5Q250,27,293,63.5Q336,100,376.5,126.5Q417,153,417,201.5Q417,250,405.5,291.5Z;
+
+                        M434,295Q405,340,389,401.5Q373,463,311.5,452.5Q250,442,211.5,413Q173,384,138.5,359Q104,334,78,292Q52,250,64.5,200Q77,150,103.5,96Q130,42,190,62Q250,82,299,81.5Q348,81,377,120.5Q406,160,434.5,205Q463,250,434,295Z;
+
+                        M445.5,299Q420,348,377,372Q334,396,292,444Q250,492,192,471.5Q134,451,102,402.5Q70,354,70,302Q70,250,61.5,193Q53,136,108,117.5Q163,99,206.5,53.5Q250,8,311,23.5Q372,39,417.5,83Q463,127,467,188.5Q471,250,445.5,299Z;
+
+                        M432.5,302.5Q433,355,381,371Q329,387,289.5,401.5Q250,416,194,430Q138,444,91.5,406Q45,368,44,309Q43,250,79,211Q115,172,128,116.5Q141,61,195.5,56.5Q250,52,311,45.5Q372,39,409,88Q446,137,439,193.5Q432,250,432.5,302.5Z;
+
+                        M429,306.5Q446,363,400,397Q354,431,302,451.5Q250,472,204.5,439.5Q159,407,102,387.5Q45,368,59.5,309Q74,250,76.5,200.5Q79,151,103,94.5Q127,38,188.5,24.5Q250,11,291,60Q332,109,368.5,134.5Q405,160,408.5,205Q412,250,429,306.5Z;
+
+                        M452.5,307Q447,364,405,405Q363,446,306.5,454.5Q250,463,190,460.5Q130,458,93,410Q56,362,56,306Q56,250,78,207Q100,164,136.5,140.5Q173,117,211.5,66.5Q250,16,301,45Q352,74,371.5,121.5Q391,169,424.5,209.5Q458,250,452.5,307Z;
+                        
+                        M473,307.5Q449,365,409,410.5Q369,456,309.5,455.5Q250,455,210.5,420.5Q171,386,124.5,368Q78,350,78.5,300Q79,250,92,208.5Q105,167,136.5,137.5Q168,108,209,91.5Q250,75,290,93.5Q330,112,383,127.5Q436,143,466.5,196.5Q497,250,473,307.5Z;
+
+                        M442.5,296Q409,342,380.5,384.5Q352,427,301,440Q250,453,209.5,421.5Q169,390,128.5,367Q88,344,67,297Q46,250,44.5,190.5Q43,131,100,110Q157,89,203.5,68.5Q250,48,306.5,51.5Q363,55,394.5,102Q426,149,451,199.5Q476,250,442.5,296Z;
+
+                        M405.5,291.5Q394,333,374,381.5Q354,430,302,416.5Q250,403,200,413.5Q150,424,131.5,376.5Q113,329,78.5,289.5Q44,250,80.5,211.5Q117,173,142,139.5Q167,106,208.5,66.5Q250,27,293,63.5Q336,100,376.5,126.5Q417,153,417,201.5Q417,250,405.5,291.5Z;
+                        "
+                        ></animate>
+                    </path>
+                  </svg>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section 38:00------------>
+<section id="about" class="about">
+    <div class="img-about scroll-scale">
+        <img src="/Projects/Portfolio1/img/WhatsApp_Image_2023-04-26_at_14.06.06-removebg-preview.png" alt="">
+
+        <div class="info-about1">
+            <span>1000+</span>
+            <p>Solved DSA problems</p>
+        </div>
+
+        <div class="info-about2">
+            <span>4+</span>
+            <p>Project Complete</p>
+        </div>
+
+        <div class="info-about3">
+            <span>2+</span>
+            <p>Live Projects</p>
+        </div>
+    </div>
+
+    <div class="about-text">
+    <div class="about-content scroll-scale">
+        <span>Let me introduce myself</span>
+        <h2>About Me</h2>
+        <h3>A story of good</h3>
+            <p>Hello there! I'm a passionate and dedicated Java developer with a strong foundation in problem-solving and a deep understanding of data structures and algorithms. My journey into the world of technology has equipped me with hands-on experience in HTML, CSS, and JavaScript. Additionally, I possess a sound knowledge of MySQL, enhancing my capabilities to handle data seamlessly<p id="dots"></p><div id="more">In academics, I take pride in being the academic topper for the past three consecutive years, showcasing my commitment to excellence. I am enthusiastic about embracing new challenges and contributing my skills to innovative projects that push the boundaries of technology. Let's build something amazing together!</div></p>
+
+        <div class="btn-box read">
+            <button onclick="myFunction()" id="myBtn" class="btn">Read More!</button>
+        </div>
+
+        <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#education">Education</button>
+            <button type="button" class="tab-item" data-target="#experience">Experience</button>
+        </div>
+
+        <!-- Education -->
+        <div class="tab-content active" id="education">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">2020 - 2024</span>
+                    <h4>Bachelor of technology (CSE) - <span>RGPV university</span></h4>
+                    <p>Current CGPA - 8.56</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <span class="date">2017 - 2019</span>
+                    <h4>12th - <span>LNMU university</span></h4>
+                    <p>Percentage - 82.2 %</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">2016 - 2017</span>
+                    <h4>10th - <span>LNMU university</span></h4>
+                    <p>Percentage - 81.1 %</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- education end -->
+
+        <!-- experience start -->
+        <div class="tab-content" id="experience">
+            <p>Fresher</p>
+            <div class="timeline">
+               
+                <!-- <div class="timeline-item">
+                  <span class="date">2023 2024</span>  
+                  <h4>Intern - <span>Codsoft</span></h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                
+                <div class="timeline-item">
+                  <span class="date">2023 2024</span>  
+                  <h4>Intern - <span>Codsoft</span></h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="timeline-item">
+                  <span class="date">2023 2024</span>  
+                  <h4>Intern - <span>Codsoft</span></h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div> -->
+
+            </div>
+        </div>
+        <!-- experience end -->
+    </div>
+</div>
+   
+</section>
+
+
+<!-- prtfolio section 1:16----------------------- -->
+
+<section id="portfolio" class="portfolio">
+    <div class="main-text scroll-scale">
+        <span>What i'll do for you</span>
+        <h2>Latest Project</h2>
+    </div>
+
+    <div class="container">
+        <div class="fillter-buttons scroll-scale">
+            <button class="button" data-filter="all">All</button>
+            <button class="button" data-filter=".product">Product</button>
+            <button class="button" data-filter=".web">Frontend</button>
+            <button class="button" data-filter=".desk">Desktop</button>
+        </div>
+
+        <div class="portfolio-gallery scroll-bottom">
+            
+            <div class="port-box mix web"> 
+                <!-- product define data-filter of Product category -->
+                <div class="port-image">
+                    <img src="/Projects/Portfolio1/img/Screenshot (919).png" alt="To Do List">
+                </div>
+                <div class="port-content">
+                    <h3>To Do List</h3>
+                    <p>Created a To-Do list web application using html , css , javascript</p>
+
+                    <div class="link">
+                        <a href="https://living-list.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <a href="https://living-list.netlify.app/" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="port-box mix web">
+                <div class="port-image">
+                    <img src="/Projects/Portfolio1/img/Screenshot (920).png" alt="Weather web app">
+                </div>
+                <div class="port-content">
+                    <h3>Weather app</h3>
+                    <p>Created a Weather web application using html , css , javascript</p>
+
+                    <div class="link">
+                        <a href="https://checkclimate.netlify.app" target="_blank"><i class='bx bx-link-external'></i></a>
+                        <a href="https://checkclimate.netlify.app" target="_blank"><i class='bx bxl-github'></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="port-box mix desk">
+                <div class="port-image">
+                    <img src="/Projects/Portfolio1/img/Screenshot (922).png" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Library Management </h3>
+                    <p>Created library Management system a desktop application using java , swing , mysql.</p>
+                    <a href="https://github.com/annpurna-jha/LMS" target="_blank"><i class='bx bxl-github'></i></i></a>
+                </div>
+            </div>
+
+            <div class="port-box mix desk">
+                <div class="port-image">
+                    <img src="/Projects/Portfolio1/img/Screenshot (923).png" alt="Spending Tracker">
+                </div>
+                <div class="port-content">
+                    <h3>Spending Tracker</h3>
+                    <p>Created expense tracker a desktop application using java , swing , mysql.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="port-box mix product">
+                <div class="port-image">
+                    <img src="/Projects/Portfolio1/img/WhatsApp_Image_2023-04-26_at_14.06.06-removebg-preview.png" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, eius blanditiis consectetur iure atque ipsam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="port-box mix web">
+                <div class="port-image">
+                    <img src="/Projects/Portfolio1/img/aboutimage-removebg-preview.png" alt="">
+                </div>
+                <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, eius blanditiis consectetur iure atque ipsam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+
+
+<!-- skill section 57:49----------------------- -->
+<section id="skills" class="skills">
+    <div class="main-text scroll-scale">
+        <span>Technical and professional</span>
+        <h2>My Skills</h2>
+    </div>
+
+    <div class="skill-main">
+        <div class="skill-left scroll-scale">
+            <!-- technical skills -->
+            <h3>Technical Skills</h3>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <p>72%</p>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <p>80%</p>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            
+            <div class="skill-bar">
+                <div class="info">
+                    <p>JavaScript</p>
+                    <p>75%</p>
+                </div>
+                <div class="bar">
+                    <span class="javascript"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Java</p>
+                    <p>85%</p>
+                </div>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>MySql</p>
+                    <p>65%</p>
+                </div>
+                <div class="bar">
+                    <span class="mysql"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="skill-right scroll-scale">
+            <h3>Professional Skills</h3>
+            <div class="professional">
+                
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent = "90">
+                    </div>
+                    <div class="text">
+                        <big>90%</big>
+                        <small>Team Work</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent = "80">
+                    </div>
+                    <div class="text">
+                        <big>80%</big>
+                        <small>Creativity</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent = "70">
+                    </div>
+                    <div class="text">
+                        <big>70%</big>
+                        <small>Communication</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent = "55"> 
+                        <!-- can less or increase data dots reflect dots on circle -->
+                        <!-- data percent should be same as written inside big tag -->
+                    </div>
+                    <div class="text">
+                        <big>55%</big>
+                        <small>Project Management</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section 1:33-------------------------------------- -->
+<section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+        <span>ask me question</span>
+        <h2>Contact Me</h2>
+    </div>
+
+    <form action="#" class="scroll-bottom">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="email" placeholder="Your Email" required>
+        <input type="text" id="phone" placeholder="Your Phone Number" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <div class="btn-box formBtn">
+            <button type="submit" class="btn" onclick="sendMail()">Send Message</button>
+        </div>
+    </form>
+
+            <div class="social scroll-scale">
+                <div class="social-icons ">
+                    <a href="https://www.linkedin.com/in/annpurna-jha/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/annpurna-jha" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:annpurnajha4@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                    <a href="https://www.instagram.com/__annpurna__" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="tel:+8955795421" target="_blank"><i class='bx bx-phone'></i></a>
+                </div>
+            </div>
+            
+</section>
+
+<!-- footer website -->
+<footer>
+    <p class="scroll-scale">Copyright &copy; 2024 by Annpurna || All Right Reserved.</p>
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+</footer>
+
+
+
+<script src="mixitup.min.js"></script>
+</body>
+</html>
